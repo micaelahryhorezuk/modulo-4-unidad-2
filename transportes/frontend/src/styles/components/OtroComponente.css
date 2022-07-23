@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3 {
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
+
+.counter {
+    padding: 1em;
+}
+
+.buttonGroup {
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 2em;
+}
+
+button {
+    border-radius: 10%;
+    padding: 0.2em 1em 0.2em 1em;
+    font-size: xx-large;
+}
+
+button:hover {
+    color: white;
+    opacity: 50%;
+}
+
+.success {
+    color: black;
+    background-color: limegreen;
+}
+
+.error {
+    color: black;
+    background-color: red;
+}
+
