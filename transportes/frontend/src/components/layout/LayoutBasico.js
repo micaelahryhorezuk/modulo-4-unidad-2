@@ -5,8 +5,8 @@ import OtroComponente from '../OtroComponente';
 function LayoutBasico() {
 	
 	const usuario = {
-		name: "Leandro",
-		lastName: "Cepeda"
+		name: "Micaela",
+		lastName: "Hryhorezuk"
 	}
 
   return (
